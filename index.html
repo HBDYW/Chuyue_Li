@@ -100,10 +100,6 @@
       <p>Directions I have worked on:</p>
       <ul class="past">
         <li>
-          <strong>Self-evolving agents for video understanding &amp; representation learning</strong>
-          — first-author work in the AIGC team at Alibaba Qwen.
-        </li>
-        <li>
           <strong>Agentic RL for image and video generation</strong>
           — research intern in the Multimodal Model Department at Tencent Hunyuan.
         </li>
@@ -125,8 +121,8 @@
     <section id="news" class="sec">
       <h2 class="sec-title"><span>News</span></h2>
       <ul class="news">
+        <li><time>2026.09</time><p><em>PyMETA</em> accepted to <strong>NeurIPS 2026 TAE</strong>.</p></li>
         <li><time>2026.08</time><p>Started my <strong>MSCS at UIUC</strong>.</p></li>
-        <li><time>2025.11</time><p><em>AVA-Encoder: Towards Agent-Native Video Representation Learning</em> submitted, from my internship at <strong>Alibaba Qwen</strong>.</p></li>
         <li><time>2025.10</time><p><em>VisionCreator</em> accepted to <strong>CVPR 2026 Findings</strong>.</p></li>
         <li><time>2025.05</time><p><em>VerbalTS: Generating Time Series from Texts</em> accepted to <strong>ICML 2025</strong>.</p></li>
         <li><time>2025.05</time><p>Completed a junior exchange year at <strong>UC Berkeley</strong>.</p></li>
@@ -135,21 +131,9 @@
 
     <section id="publications" class="sec">
       <h2 class="sec-title"><span>Publications &amp; Manuscripts</span></h2>
-      <p class="sec-note">My name in bold. Author ordering follows each manuscript.</p>
+      <p class="sec-note">My name in bold. * denotes equal contribution.</p>
 
       <ol class="pubs">
-
-        <li class="pub">
-          <div class="pub-fig">
-            <img src="assets/img/pubs/ava-encoder.png" alt="" loading="lazy">
-          </div>
-          <div class="pub-body">
-            <span class="pub-tag pending">Under review</span>
-            <h3>AVA-Encoder: Towards Agent-Native Video Representation Learning</h3>
-            <p class="authors"><b>Chuyue Li</b>, Jinpeng Yu, Haozhe Wang, Xueyun Tian, Zhijing Zhang, Bingnan Li, Shuqi Gu, Kan Ren, Jiaming Liu, Ruihua Huang</p>
-            <p class="pub-note">Videos encoded as structured knowledge graphs and reconstructed by a fixed decoder, optimized through textual-gradient feedback. <strong>49.0%</strong> reconstruction fidelity (+20.7 abs. over baseline) with <strong>74.3%</strong> fewer tokens.</p>
-          </div>
-        </li>
 
         <li class="pub">
           <div class="pub-fig">
@@ -175,22 +159,11 @@
           </div>
         </li>
 
-        <li class="pub">
-          <div class="pub-fig">
-            <img src="assets/img/pubs/what-to-edit-next.png" alt="" loading="lazy">
-          </div>
-          <div class="pub-body">
-            <span class="pub-tag pending">Under review</span>
-            <h3>What to Edit Next: Visually Aligned Image-Editing Follow-Up Suggestions in Conversational Systems</h3>
-            <p class="authors">Zhijing Zhang, Jinpeng Yu, Xin Song, Bingnan Li, <b>Chuyue Li</b>, Changhui Du, Xiaolin Fang, Jiaming Liu, Ruihua Huang</p>
-          </div>
-        </li>
-
         <li class="pub no-fig">
           <div class="pub-body">
-            <span class="pub-tag pending">Under review</span>
+            <span class="pub-tag accepted">NeurIPS 2026 TAE</span>
             <h3>PyMETA: A Benchmark Dataset for Hierarchical Student Code Error Classification with Python-Interpreter-Based Labels</h3>
-            <p class="authors"><b>Chuyue Li</b>, Ziqi Tang, Jingyi Wang, Yu Wu, Kazuma Hashimoto, Lingyu Gao</p>
+            <p class="authors">Ziqi Tang*, <b>Chuyue Li</b>*, Jingyi Wang, Yu Wu, Kazuma Hashimoto, Lingyu Gao</p>
             <p class="pub-note">A multi-level taxonomy and 40,000-error benchmark for student Python code, with single- and multi-error detection across seven model architectures.</p>
           </div>
         </li>
@@ -214,23 +187,6 @@
       <h2 class="sec-title"><span>Research Experience</span></h2>
 
       <ol class="timeline">
-
-        <li class="item">
-          <div class="item-meta">
-            <span class="date">2025.06 — 2025.11</span>
-            <span class="place">Alibaba Qwen</span>
-            <span class="role">Research Intern</span>
-          </div>
-          <div class="item-body">
-            <h3>Self-Evolving Agent for Video Understanding and Representation Learning</h3>
-            <p class="sub">Visual Technology Dept., AIGC Team · Mentors: Jingpeng Yu, Jiaming Liu</p>
-            <ul>
-              <li>Pioneered <strong>agentic video auto-encoding</strong>: videos are represented as a structured knowledge graph, encoded by an agent and reconstructed by a fixed decoder, with the whole system optimized by textual-gradient feedback on reconstruction consistency.</li>
-              <li>Designed a <strong>hierarchical agentic encoder</strong> and a dual-loop optimizer — an outer loop with an anti-forgetting gate for transferable encoding policies, an inner loop with an anti-degradation gate for test-time KG refinement.</li>
-              <li>Reached SOTA reconstruction fidelity (49.0%, +20.7 absolute); the self-learned policy beat the human-tuned one (45.8% vs. 44.4%) while cutting tokens by 74.3% (shot) and 70.1% (keyframe).</li>
-            </ul>
-          </div>
-        </li>
 
         <li class="item">
           <div class="item-meta">

@@ -103,7 +103,7 @@ html[data-theme="dark"] .theme-toggle .i-moon{ display:block; }
 }
 
 .portrait{
-  width:156px; height:208px; border-radius:50%;
+  width:190px; height:190px; border-radius:8px;
   background:var(--paper-2);
   border:1px solid var(--line);
   display:grid; place-items:center;
@@ -112,7 +112,7 @@ html[data-theme="dark"] .theme-toggle .i-moon{ display:block; }
   position:relative;
 }
 .portrait::before{
-  content:""; position:absolute; inset:-1px; border-radius:50%;
+  content:""; position:absolute; inset:-1px; border-radius:8px;
   background:conic-gradient(from 210deg, var(--accent-soft), transparent 45%, var(--amber-soft) 70%, transparent);
   opacity:.75;
 }
